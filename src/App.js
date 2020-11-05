@@ -1,12 +1,11 @@
 import './App.css';
 
+import Home from './components/pages/home/Home'
+
 function App() {
   return (
     <div className="App">
-      <h1>
-        Mobola Ande
-      </h1>
-      <p>Fashion imitating Art imitating Life.</p>
+      <Home/>
     </div>
   );
 }
