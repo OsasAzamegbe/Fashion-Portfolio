@@ -34,7 +34,7 @@ const Navbar = () => {
                         </a>
                     </li>
                     <li className="nav-item">
-                        <a href="https://www.instagram.com/ande.illus_/" target="_blank" className="nav-links" onClick={closeMobileMenu} >
+                        <a href="https://www.instagram.com/ande.illus_/" target="_blank" rel="noreferrer" className="nav-links" onClick={closeMobileMenu} >
                             <FaInstagram/>
                         </a>
                     </li>
