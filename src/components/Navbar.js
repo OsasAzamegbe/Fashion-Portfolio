@@ -14,7 +14,7 @@ const Navbar = () => {
 
     return (
         <nav className="navbar">
-            <div className="navbar-container container">
+            <div className={`navbar-container container ${click ? "active" : ""}`}>
                 <Link to="/" className="navbar-logo" onClick={closeMobileMenu}  >
                     Mobola Andé
                 </Link>
