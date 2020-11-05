@@ -7,7 +7,7 @@ const Home = () => {
         <div className="home">
             <header className="home-heading">
                 <p className="home-heading-text">
-                    Mobola Ande
+                    Mobola Andé
                 </p>                
             </header>
             <div className="home-description">
