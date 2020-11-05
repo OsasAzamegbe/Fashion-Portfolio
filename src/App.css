@@ -25,6 +25,10 @@ html{
   background-size: cover;
 }
 
-html, body{
+html body{
   color: var(--primary);
+}
+
+.App{
+  height: 85vh;
 }
