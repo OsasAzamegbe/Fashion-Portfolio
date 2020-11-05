@@ -6,6 +6,7 @@ function App() {
       <h1>
         Mobola Ande
       </h1>
+      <p>Fashion imitating Art imitating Life.</p>
     </div>
   );
 }
