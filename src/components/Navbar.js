@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import {Link} from 'react-router-dom'
-import {FaBars, FaTimes} from 'react-icons/fa'
+import {FaBars, FaTimes, FaInstagram} from 'react-icons/fa'
 import './Navbar.css'
 
 
@@ -16,7 +16,7 @@ const Navbar = () => {
         <nav className="navbar">
             <div className="navbar-container container">
                 <Link to="/" className="navbar-logo" onClick={closeMobileMenu}  >
-                    {"< osas />"}
+                    Mobola Andé
                 </Link>
                 <div className="menu-icon" onClick={clickHandler} >              
                     {click ? <FaTimes className="fa-times" /> : <FaBars className="fa-bars"/>}
@@ -24,24 +24,18 @@ const Navbar = () => {
     
                 <ul className={click ? "nav-menu active" : "nav-menu"}>
                     <li className="nav-item">
-                        <a href="#projects" className="nav-links" onClick={closeMobileMenu} >
-                            Projects
+                        <a href="/illustrations" className="nav-links" onClick={closeMobileMenu} >
+                            Illustrations
                         </a>
                     </li>
                     <li className="nav-item">
-                        <a href="#about" className="nav-links" onClick={closeMobileMenu} >
+                        <a href="/about" className="nav-links" onClick={closeMobileMenu} >
                             About
                         </a>
                     </li>
                     <li className="nav-item">
-                        <Link to="//github.com/OsasAzamegbe"
-                        target="_blank" className="nav-links" onClick={closeMobileMenu} >
-                            Github
-                        </Link>
-                    </li>
-                    <li className="nav-item">
-                        <a href="#contact" className="nav-links" onClick={closeMobileMenu} >
-                            Contact
+                        <a href="https://www.instagram.com/ande.illus_/" target="_blank" className="nav-links" onClick={closeMobileMenu} >
+                            <FaInstagram/>
                         </a>
                     </li>
                 </ul>

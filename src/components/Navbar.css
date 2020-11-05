@@ -1,5 +1,5 @@
 .navbar {
-    background: var(--background);
+    background: transparent;
     height: 80px;
     display: flex;
     justify-content: center;
