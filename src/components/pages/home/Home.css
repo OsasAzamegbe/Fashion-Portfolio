@@ -32,6 +32,10 @@
     .home-heading-text{
         font-size: 10rem;
     }
+
+    .home-description-text{
+        font-size: medium;
+    }
 }
 
 @media screen and (max-width: 795px){
