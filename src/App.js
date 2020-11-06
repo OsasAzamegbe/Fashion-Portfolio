@@ -9,7 +9,7 @@ import Illustrations from './components/pages/illustrations/Illustrations'
 
 function App() {
   return (
-    <div className="App">
+    <main className="App">
       <Router>
         <Navbar/>
         <Switch>
@@ -17,7 +17,7 @@ function App() {
           <Route path="/illustrations/" exact component={Illustrations} />
         </Switch>
       </Router>
-    </div>
+    </main>
   );
 }
 
