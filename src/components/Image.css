@@ -10,6 +10,11 @@
     object-fit: cover;
 }
 
+.image:hover {
+    transform: scale(1.02);
+    transition: all 0.2s ease;
+}
+
 @media (max-width: 1200px) {
     .image{
         height: auto;
