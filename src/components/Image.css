@@ -1,6 +1,7 @@
 .image-container{
     background: var(--red);
     height: 50vh;
+    margin: 5px;
 }
 
 .image{
