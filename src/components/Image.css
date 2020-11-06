@@ -1,12 +1,11 @@
 .image-container{
     background: var(--red);
-    height: 50vh;
     display: inline-block;
-    margin: 2px;
+    margin: 5px;
 }
 
 .image{
-    height: 100%;
-    width: auto;
+    height: 70vh;
+    width: 100%;
     object-fit: cover;
 }
