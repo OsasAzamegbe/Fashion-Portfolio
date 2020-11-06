@@ -8,6 +8,12 @@
     padding: 48px;
 }
 
+.illustrations h1 {
+    margin: 12px 0;
+    padding: 12px;
+    font-family: var(--title-font);
+}
+
 .illustration-images-container{
     width: 100%;
     min-height: 100%;
@@ -51,7 +57,7 @@
     -webkit-column-count: 1;
     column-count:         1;
     }
-    
+
     .illustrations{
         padding: 12px;
     }
