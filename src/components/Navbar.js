@@ -24,19 +24,19 @@ const Navbar = () => {
     
                 <ul className={click ? "nav-menu active" : "nav-menu"}>
                     <li className="nav-item">
-                        <a href="/illustrations" className="nav-links" onClick={closeMobileMenu} >
+                        <Link to="/illustrations" className="nav-links" onClick={closeMobileMenu} >
                             Illustrations
-                        </a>
+                        </Link>
                     </li>
                     <li className="nav-item">
-                        <a href="/about" className="nav-links" onClick={closeMobileMenu} >
+                        <Link to="/about" className="nav-links" onClick={closeMobileMenu} >
                             About
-                        </a>
+                        </Link>
                     </li>
                     <li className="nav-item">
-                        <a href="https://www.instagram.com/ande.illus_/" target="_blank" rel="noreferrer" className="nav-links" onClick={closeMobileMenu} >
+                        <Link to="//www.instagram.com/ande.illus_/" target="_blank" rel="noreferrer" className="nav-links" onClick={closeMobileMenu} >
                             <FaInstagram/>
-                        </a>
+                        </Link>
                     </li>
                 </ul>
 
