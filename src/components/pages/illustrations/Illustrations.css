@@ -5,7 +5,7 @@
     flex-direction: column;
     min-height: 100%;
     width: 100%;
-    padding: 3rem;
+    padding: 48px;
 }
 
 .illustration-images-container{
@@ -31,6 +31,10 @@
     -webkit-column-count: 3;
     column-count:         3;
     }
+
+    .illustrations{
+        padding: 24px;
+    }
 }
 
 @media (max-width: 800px) {
@@ -46,5 +50,9 @@
     -moz-column-count:    1;
     -webkit-column-count: 1;
     column-count:         1;
+    }
+    
+    .illustrations{
+        padding: 12px;
     }
 }
