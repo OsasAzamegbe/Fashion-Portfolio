@@ -1,0 +1,9 @@
+.image-container{
+    background: var(--red);
+}
+
+.image{
+    height: 50vh;
+    width: auto;
+    object-fit: cover;
+}
