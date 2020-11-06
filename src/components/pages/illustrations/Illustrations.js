@@ -9,9 +9,11 @@ const Illustrations = () => {
     return(
         <div className="illustrations">
             <h1>PORTFOLIO</h1>
-            {imageObjs.map(
-                (image, index) => <Image {...image} key={index}/>
-            )}
+            <div className="illustration-images-container">
+                {imageObjs.map(
+                    (image, index) => <Image {...image} key={index}/>
+                )}
+            </div>            
         </div>
     )
 }
