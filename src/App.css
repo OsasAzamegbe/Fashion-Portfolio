@@ -24,12 +24,14 @@ html{
   -o-background-size: cover;
   background-size: cover;
   height: 100%;
+  overflow: auto;
 }
 
 html body{
   color: var(--primary);
   background-color: rgba(0, 0, 0, 0.705);
   height: 100%;
+  overflow: auto;
 }
 
 .App{

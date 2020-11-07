@@ -11,7 +11,7 @@ const About = () => {
         <div className="about">
             <header className="about-header"><h1>ABOUT</h1></header>
             <section className="about-section">
-                <Image width="40vmin" height="40vmin" src="/images/profile.webp" alt="Mobola Ande profile" />
+                <Image transform="none" width="40vmin" height="40vmin" src="/images/profile.webp" alt="Mobola Ande profile" />
                 <div className="about-description-container">
                     <p className="about-headliner">
                         Mobola Andé is a Nigerian self-taught womenswear fashion illustrator based in Lagos, Nigeria.
