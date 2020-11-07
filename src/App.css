@@ -29,7 +29,7 @@ html{
 
 html body{
   color: var(--primary);
-  background-color: rgba(0, 0, 0, 0.705);
+  background-color: rgba(0, 0, 0, 0.699);
   height: 100%;
   overflow: auto;
 }
