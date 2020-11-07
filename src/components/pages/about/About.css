@@ -5,4 +5,18 @@
     flex-direction: column;
     padding: 24px;
     height: 100%;
+    text-align: justify;
+}
+
+.about-description-container{
+    width: 600px;
+}
+
+@media (max-width: 700px){
+    .about-description-container{
+        width: 80vw;
+    }
+    .about{
+        padding: 12px;
+    }
 }
