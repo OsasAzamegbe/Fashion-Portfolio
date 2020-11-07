@@ -5,6 +5,7 @@ import './About.css'
 const About = () => {
     return (
         <div className="about">
+            <header className="about-header"><h1>ABOUT</h1></header>
             <div className="about-description-container">
                 <p className="about-headliner">
                     Mobola Andé is a Nigerian self-taught womenswear fashion illustrator based in Lagos, Nigeria.

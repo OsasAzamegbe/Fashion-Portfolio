@@ -12,6 +12,16 @@
     width: 600px;
 }
 
+.about-header h1{
+    font-family: var(--title-font);
+    line-height: 36px;
+}
+
+.about-header{
+    padding: 24px;
+    margin: 60px 0;
+}
+
 @media (max-width: 700px){
     .about-description-container{
         width: 80vw;
