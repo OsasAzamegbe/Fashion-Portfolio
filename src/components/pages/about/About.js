@@ -1,6 +1,9 @@
 import React from 'react'
 import './About.css'
 
+import {Link} from 'react-router-dom'
+import {FaInstagram} from 'react-icons/fa'
+
 
 const About = () => {
     return (
@@ -15,7 +18,16 @@ const About = () => {
                     She thinks of fashion and design as her alter ego. Mobola draws inspiration for her fashion illustration from within. Her designs are based on her ever dynamic fashion tastes and subtle ingenuity with colors. Mobola's style is comforting, ingenious and expressive. 
                     <br/><br/>Mobola's ultimate goal as an artist is to produce high quality wears that keep challenging design possibilities, pioneer new frontiers in Fashion whilst commandeering timeless aesthetics.
                 </p>
-            </div>            
+            </div>
+            <div className="about-contact">
+                <div className="about-contact-items">
+                    <p>mobola240@gmail.com </p>
+                    <Link to="//www.instagram.com/ande.illus_/" target="_blank" rel="noreferrer" className="instagram-icon">
+                        <FaInstagram/>
+                    </Link>
+                    <p>Lagos, Nigeria.</p>
+                </div>
+            </div>          
         </div>
     )
 }
